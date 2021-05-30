@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.logo img{
+    width: 30%;
+    border: 0.2rem solid rgb(62, 62, 122);
+    border-radius: 5rem;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    color: gray;
+    background-color: white;
+    border: 0.5rem black;
+    border-bottom: 1px solid navy;
+    
+
+}
+.logo{
+    margin-left: 2rem;
+}
+.color{
+    color: grey;
+    background-color: #6767b4;
+}
+.nav-list{
+    width: 75%;
+   
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 2.6rem 3rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: navy;
+    margin-left: -35px;
+}
+.nav-list li a:hover{
+    color: blue;
+    border-bottom: 2px solid navy;
+}
+.nav-list li a:ac{
+    color: navy;
+    border-bottom: 2px solid navy;
+}
+.rightNav{
+ 
+    width: 25%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.3rem;
+   
+    
+}
+#search{
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    border-radius: 0.9rem;
+    border: 0.2rem solid navy;
+}
+.background{
+    
+    background-image: url('../img/h.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+.firstSection{
+    height: 86rem;
+    max-width: 400%;
+    margin-bottom: 3rem;
+}
+.box-main{
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    padding: 7rem;
+
+}
+.firstHalf{
+   width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 70%;
+    border: 0.3rem solid rgb(62, 62, 122);
+    border-radius: 15rem;
+    display: block;
+    margin: auto;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+
+}
+.text-big{
+    font-size: 4.7rem;
+    font-style: normal;
+    font-family: auto;
+    color: navy;
+}
+.trends img{
+    display: block;
+    padding-right: 0.0rem;
+    padding-left: 40rem;
+    width: 40%;
+}
+.trend img{
+    display: block;
+    padding-right: 0.0rem;
+    padding-left: 21.8rem;
+    width: 70%;
+}
+.big{
+    margin: 1rem;
+    margin-left: 21.5rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-family: auto;
+}
+.text-sm{
+    font-size: 2rem;
+    line-height: 2.7rem;
+    margin-left: 22rem;
+    margin-right: 20rem;
+}
+.text-small{
+    font-size: 1.8rem;
+    color: navy;
+}
+.btn{
+    padding: 0.8rem 2rem;
+    margin: 0.7rem 0.3rem;
+    border: 0.2rem solid navy;
+    border-radius: 0.8rem;
+    font-size: 2rem;
+    background: none;
+    color: navy;
+    
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-sm{
+    padding: 0.6rem 1rem;
+    vertical-align: middle;
+    font-size: 1.6rem;
+    color: navy;
+}
+.btn-dark{
+    color: black;
+    border: 0.2rem solid  #210080;
+
+}
+
+.section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.section-Left{
+    flex-direction: row-reverse;
+
+}
+.paras{
+    padding: 0 6.5rem;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    border-radius: 2.6rem;
+    border: 0.2rem solid black;
+    width: 25rem;
+    margin-top: 1.9rem;
+}
+.contact{
+    background-color: white;
+    height: 85rem;
+
+}
+.text-center{
+    text-align: center;
+    padding-top: 3rem;
+    padding: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    color: #210080;
+
+
+
+}
+.form{
+    max-width: 62%;
+    margin: 2.5rem auto;
+}
+.form-input{
+    margin: 1.4rem 0;
+    padding: 0.5rem 1.3rem;
+    width: 100%;
+    font-size: 1.9rem;
+    border: 0.2rem solid #210080;
+    border-radius: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer{
+    text-align: center;
+    padding: 3rem 0.0rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+}
+
+.dt{
+    
+        /* padding: 3rem 0.0rem; */
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        color: white;
+        font-size: 13px;
+        margin-bottom: -2rem;
+}
+
+.burger{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    right: 5%;
+    top: 1.5rem;
+
+}
+.line{
+    width: 3.3rem;
+    background-color: black;
+    height: 0.4rem;
+    margin: 0.5rem 0.3rem;
+
+}
+ 
+
+@media(max-width:960px){
+    html{
+        font-size: 50%;
+}
+}
+@media only screen and (max-width:1140px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 47.8rem;
+        transition: all 0.3s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    /* .background{
+        background-image: inherit;
+    background-position-x: inherit;
+    background-position-y: inherit;
+    background-size: inherit;
+    
+    background-attachment: inherit;
+    background-origin: inherit;
+    background-clip: inherit;
+    background-color: inherit;
+    } */
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 6rem;
+    }
+    .v-class-resp{
+        opacity: 0;
+
+    }
+    .firstHalf{
+        
+         flex-direction: column;
+         justify-content: center; 
+     
+     }
+    .secondHalf img{
+        flex-direction: column-reverse;
+        display: none;
+
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0.0rem;
+    }
+}
+
+ /* This is CSS for About Page */
+ .div1{
+     margin-left: auto;
+     text-align: center;
+     justify-content: center;
+     margin-right: auto;
+     max-width: 80%;
+}
+.back-color{
+    /* background-image: url(../img/about.jpg); */
+    background-color: #d3d3d336;
+    
+}
+.a-btn{
+    border: 0.3rem solid green;
+    background-color: green;
+    text-align: center;
+    margin-bottom: 13rem;
+    font-size: 3rem;
+    color: white;
+}
+.a-text-big{
+   padding-top: 10rem;
+    color: navy;
+    font-size: 5rem;
+    line-height: 7rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0px;
+}
+.a-text-sm{
+    margin-bottom: 3rem;
+    /* padding-bottom: 15rem; */
+    margin-top: 2rem;
+    color: #0000f7cc;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 320;
+    text-align: center;
+}
+.making{
+    font-family: Catamaran;
+    color: #0e0c0c;
+    font-size: 6rem;
+    line-height: 0.8rem;
+    font-weight: 900;
+   text-align: center;
+   margin-top: 4rem;
+  
+}
+.ab-text{
+    font-size: 3.2rem;
+    line-height: 6.4rem;
+    margin-left: 22rem;
+   
+}
+.ab-text-sm{
+    font-size: 2rem;
+  
+}
+.sec{
+    display: flex;
+    max-width: 90%;
+    margin-top: 7rem;
+    
+}
+.d1{
+
+    max-width: 60%;
+    margin-right: 7rem;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+}
+.d2{  
+    
+    margin-right: 2rem;
+    max-width: 40%;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+   
+}
+
+
+/* This is code for product page */
+.back-pro{
+    background-image: url(../img/pro1.jpg);
+    width: 100%;
+    height: calc(100vh - 10rem);
+    min-height: 55rem;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.text-pro{
+    
+    width: 100%;
+    max-width: 62rem;
+    display: block;
+    font-family: "gothambold";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 5rem;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0 5px 15px rgb(0 0 0 / 70%);
+    margin: 5rem;
+}
+.pro-btn{
+    border: 0.3rem solid red;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60rem;
+    margin-top: 3rem;
+
+}
+.text-big-pro{
+    font-size: 4.7rem;
+    font-style: normal;
+    font-family: auto;
+    /* color: navy; */
+    /* font-size: 36px; */
+    color: #000;
+    text-align: center;
+}
+.text-small-pro{
+    font-size: 1.8rem;
+    /* font-size: 16px; */
+    line-height: 3rem;
+    font-weight: 300;
+    max-width: 80%;
+    margin-left: 13rem;
+    margin-bottom: 5rem;
+
+}
